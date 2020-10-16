@@ -1,0 +1,26 @@
+.mobile_comment{
+   width: 100%;
+   display: none;
+   margin-top: 2em;
+}
+
+.mobile_comment p{
+   line-height: 2.1;
+   font-size: 19px;
+   font-family: Arial, Helvetica, sans-serif;
+   text-transform: uppercase;
+}
+
+.icon{
+   cursor: pointer;
+   font-size: 40px;
+   
+}
+
+@media(max-width:768px){
+   .mobile_comment{
+      display: flex;
+      float: right;
+      justify-content: flex-end;
+   }
+}

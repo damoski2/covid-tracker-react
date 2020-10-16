@@ -1,0 +1,75 @@
+.side_comment{
+    position: fixed;
+    height: 100vh;
+    float: right;
+    background: rgb(19, 19, 19);
+    top: 0;
+    right: 0;
+    color: #ffffff;
+    z-index: 200;
+    box-shadow: 0 3px 7px #000;
+    transform: translateX(110%);
+    transition: transform 0.5s ease-out;
+    width: 70%;
+}
+
+.outerdiv{
+    width: 100%;
+}
+
+.side_comment.show{
+    transform: translateX(0);
+}
+
+.commentsection input[type="text"]{
+    background: transparent;
+    color: #ffffff;
+}
+
+.commentsection .outerdiv {
+    position: relative;
+    top: -2em;
+}
+
+.commentsection div input[type="text"],.btns{
+    display: flex;
+    background: transparent;
+    border-left:none ;
+    border-top: none;
+    border-right: none;
+    width: 100%;
+}
+
+.commentsection div input[type="text"]:focus{
+   outline: none;
+}
+.main h1{
+    margin-left: 90px;
+    margin-bottom: 20px;
+}
+
+.commentbtns{
+    margin-top: 20px;
+    float: right;
+}
+ #mini_submit{
+    border: transparent;
+  
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 2px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+
+#mini_cancel{
+    border: transparent;
+    background: none;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+

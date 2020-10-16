@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    background-color: rgb(224, 224, 215);
+    padding: 30px;
+}
+
+@media(max-width:768px){
+    .container{
+        width: 100%;
+    }
+}

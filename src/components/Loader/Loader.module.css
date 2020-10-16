@@ -1,0 +1,25 @@
+/*Conatiner(Global)*/
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,0,0,0.3);
+}
+
+.loader{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 7px solid #f3f3f3;
+    border-top: 7px solid blue;
+    border-bottom: 7px solid blue;
+    animation: loader 2s linear infinite;
+    display: flex;
+}
+
+@keyframes loader{
+    0%{transform: rotate(0deg);}
+    100%{transform:rotate(360deg)}
+}

@@ -1,0 +1,52 @@
+.container{
+    margin: 50px 0;
+    background: rgb(224, 224, 215);
+    box-shadow: 2px 2px 6px 1px #858181;
+    padding: 50px;
+}
+
+.card{
+    margin: 0 2% !important;
+}
+
+.infected{
+    border-bottom: 10px solid rgba(0,0,255,0.5);
+}
+.box{
+    transition: 1s ease-in-out;
+}
+.box:hover{
+    box-shadow: 2px 3px 7px rgba(0, 0, 0);
+}
+
+.recovered{
+    border-bottom: 10px solid rgba(0,255,0,0.5);
+}
+
+.deaths{
+    border-bottom: 10px solid rgba(255,0,0,0.5);
+}
+
+/*Loader*/
+
+.loader{
+    margin-top: 2em;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 7px solid #f3f3f3;
+    border-top: 7px solid blue;
+    border-bottom: 7px solid blue;
+    animation: loader 2s linear infinite;
+}
+
+@media(max-width:768px){
+    .card{
+        margin: 2% 0 !important;
+    }
+}
+
+@keyframes loader{
+    0%{transform: rotate(0deg);}
+    100%{transform:rotate(360deg)}
+}

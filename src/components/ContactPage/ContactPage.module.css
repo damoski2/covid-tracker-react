@@ -1,0 +1,148 @@
+/*Global*/
+.contact{
+    background: rgb(224, 224, 215);
+    padding: 10px;
+    box-shadow: 2px 2px 6px 1px #858181;
+}
+
+section{
+    width: 85%;
+    margin-top: 100px;
+}
+
+.contactInfo{
+    width: 50%;
+}
+
+.contactInfo h1{
+    font-size: 37px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contactInfo img{
+    width: 100%;
+}
+
+.contactForm{
+    width: 45%;
+    float: right;
+    margin-left: 80%;
+    margin-top: -50%;
+    
+}
+
+.Formdiv{
+    background: #38758d;
+    padding: 30px;
+    width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.Formdiv div{
+    margin-top: 30px;
+    font-weight: bolder;
+}
+
+.Formdiv h1{
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.Formdiv label{
+    display: block;
+}
+
+.Formdiv input[type="text"] , .Formdiv input[type="email"]{
+    width: 100%;
+    height: 30px;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    background: transparent;
+    border-bottom: .4px solid rgba(255,255,255,0.7);
+    text-align: center;
+}
+
+.Formdiv input[type="submit"]{
+    width: 100%;
+    height: 30px;
+    font-size: 19px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    transition: .6s ease-in-out;
+    cursor: pointer;
+}
+
+.Formdiv input[type="submit"]:hover{
+   background: #661add;
+   color: #ffffff;
+}
+
+
+.Formdiv input{
+    outline: none;
+}
+
+.H{
+    font-size: 38px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+hr{
+    margin-bottom: 40px;
+}
+
+@media(max-width:992px){
+    section{
+        flex-direction: column;
+        width: 85%;
+    }
+
+    .H{
+        font-size: 30px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    
+    .contactInfo{
+        width: 100%;
+    }
+
+    .contactInfo h1{
+        font-size: 27px;
+    }    
+
+    .contactForm{
+        width: 90%;
+        margin-top: 20%;
+    }
+
+    .Formdiv div{
+        margin-top: 15px;
+    }
+    
+}
+
+@media(max-width:460px){
+    .contactInfo h1{
+        font-size: 17px;
+    }    
+
+    .H{
+        font-size: 17px;
+    }
+
+    .contactForm h1{
+        font-size: 20px;
+    }
+    .contactForm{
+        width: 100%;
+    }
+
+    .contact{
+        padding: 20px;
+    }
+}
